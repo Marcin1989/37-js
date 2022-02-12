@@ -2,10 +2,10 @@ let num1 = 2;
 
 let num2 = 5;
 
-function sammen (x, y) {
-    resault = x * y;
-    return resault;
+function storer (x, y) {
+    console.log(Math.max(x, y))
+    
 }
 
-console.log(sammen(num1, num2));
+console.log(storer(num1, num2));
 
